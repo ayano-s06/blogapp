@@ -19,10 +19,16 @@ $avatar-size: 32px;
     font-size: 12px;
 
     img {
+      cursor: pointer;
       width: $avatar-size;
       height: $avatar-size;
       border-radius: 100%;
       margin-right: 16px;
+    }
+
+    &_actions {
+      right: 0px;
+      position: absolute;
     }
   }
 

@@ -5,5 +5,5 @@
     %p= f.label :email
     %p= f.email_field :email, autofocus: true, autocomplete: "email"
   .actions
-    = f.submit "Send me password reset instructions"
+    = f.submit "Send me password reset instructions", class: 'btn-primary'
 = render "devise/shared/links"

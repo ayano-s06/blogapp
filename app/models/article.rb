@@ -17,7 +17,7 @@ class Article < ApplicationRecord
     has_one_attached :eyecatch
 
     validates :title, presence: true
-    validates :title, length: { minimum: 2, maximum: 100 }
+    validates :title, length: { minimum: 2, maximum: 30 }
     validates :title, format: { with: /\A(?!\@)/ }
 
     validates :content, presence: true

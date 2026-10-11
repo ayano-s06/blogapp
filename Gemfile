@@ -72,4 +72,4 @@ group :test do
 end
 
 gem 'importmap-rails', '~> 2.2'
-gem 'json', '~> 2.7'
+gem 'json', '~> 3.0'

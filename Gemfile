@@ -33,6 +33,8 @@ gem 'binding_of_caller'
 gem 'devise'
 gem 'faker'
 gem 'hamlit'
+gem 'aws-sdk-s3', require: false
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[ windows jruby ]
@@ -48,6 +50,7 @@ group :development, :test do
   gem 'debug', platforms: %i[ mri windows ], require: 'debug/prelude'
   gem 'pry-byebug'
   gem 'rubocop-rails'
+  gem 'dotenv-rails'
 
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem 'brakeman', require: false
